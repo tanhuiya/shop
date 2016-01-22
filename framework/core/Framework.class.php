@@ -6,6 +6,7 @@
 	{
 		public static function run(){
 			// echo "running";
+			ini_set("display_errors" , "on");
 			self::init();
 			self::autoload();
 			self::route();
@@ -37,6 +38,11 @@
 			define('CUR_CONTROLLER_PATH', CONTROLLER_PATH.PLATFORM.DS);
 			define('CUR_VIEW_PATH', VIEW_PATH.PLATFORM.DS);
 			
+			require CORE_PATH."Controller.class.php";
+			require CORE_PATH."Model.class.php";
+			require DATABASE_PATH."Mysql.class.php";
+
+			$GLOBALS["config"] = include CONFIG_PATH."config.php";
 		}
 
 		public static function route(){

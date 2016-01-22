@@ -1,0 +1,289 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+"	application/views/admin/js/transport.js	/^            '\\r': '\\\\r',$/;"	p
+$	application/views/admin/js/global.js	/^function $()$/;"	f
+$ce	application/views/admin/js/global.js	/^function $ce(tagName)$/;"	f
+ACTION	framework/core/Framework.class.php	/^			define('ACTION',isset($_REQUEST['a'])? $_REQUEST['a'] : 'index');$/;"	d
+ADMIN_PATH	framework/core/Framework.class.php	/^			define('ADMIN_PATH', CONTROLLER_PATH."admin".DS);$/;"	d
+APP_PATH	framework/core/Framework.class.php	/^			define('APP_PATH', ROOT."application".DS);$/;"	d
+Ajax	application/views/admin/js/transport.js	/^var Ajax = Transport;$/;"	v
+Array	application/views/admin/js/transport.js	/^if ( ! Object.prototype.toJSONString) {$/;"	c
+Array.function.p	application/views/admin/js/transport.js	/^        function p(s) {$/;"	f
+Array.toJSONString	application/views/admin/js/transport.js	/^    Array.prototype.toJSONString = function () {$/;"	m
+Boolean	application/views/admin/js/transport.js	/^    };$/;"	c
+Boolean.toJSONString	application/views/admin/js/transport.js	/^    Boolean.prototype.toJSONString = function () {$/;"	m
+Browser	application/views/admin/js/utils.js	/^var Browser = new Object();$/;"	c
+CONFIG_PATH	framework/core/Framework.class.php	/^			define('CONFIG_PATH', APP_PATH."config".DS);$/;"	d
+CONTROLLER	framework/core/Framework.class.php	/^			define('CONTROLLER',isset($_REQUEST['c'])? ucfirst($_REQUEST['c']):'Index');$/;"	d
+CONTROLLER_PATH	framework/core/Framework.class.php	/^			define('CONTROLLER_PATH', APP_PATH."controllers".DS);$/;"	d
+CORE_PATH	framework/core/Framework.class.php	/^			define('CORE_PATH', FRAMEWORK_PATH."core".DS);$/;"	d
+CUR_CONTROLLER_PATH	framework/core/Framework.class.php	/^			define('CUR_CONTROLLER_PATH', CONTROLLER_PATH.PLATFORM.DS);$/;"	d
+CUR_VIEW_PATH	framework/core/Framework.class.php	/^			define('CUR_VIEW_PATH', VIEW_PATH.PLATFORM.DS);$/;"	d
+CategoryController	application/controllers/admin/CategoryController.class.php	/^	class CategoryController extends Controller{$/;"	c
+CategoryModel	application/models/CategoryModel.class.php	/^class CategoryModel extends Model$/;"	c
+Class.create	application/views/admin/js/global.js	/^var Class = {$/;"	m
+ColorSelecter	application/views/admin/js/colorselector.js	/^var ColorSelecter = new Object();$/;"	c
+ColorSelecter	application/views/admin/js/colorselector_topic.js	/^var ColorSelecter = new Object();$/;"	c
+ColorSelecter.Show	application/views/admin/js/colorselector.js	/^var ColorSelecter = new Object();$/;"	f
+ColorSelecter.Show	application/views/admin/js/colorselector_topic.js	/^var ColorSelecter = new Object();$/;"	f
+Controller	framework/core/Controller.class.php	/^	class Controller$/;"	c
+DATABASE_PATH	framework/core/Framework.class.php	/^			define('DATABASE_PATH', FRAMEWORK_PATH."database".DS);$/;"	d
+DS	framework/core/Framework.class.php	/^			define('DS', DIRECTORY_SEPARATOR);$/;"	d
+Date	application/views/admin/js/transport.js	/^    };$/;"	c
+Date.function.f	application/views/admin/js/transport.js	/^        function f(n) {$/;"	f
+Date.toJSONString	application/views/admin/js/transport.js	/^    Date.prototype.toJSONString = function () {$/;"	m
+FRAMEWORK_PATH	framework/core/Framework.class.php	/^			define('FRAMEWORK_PATH', ROOT."framework".DS);$/;"	d
+Framework	framework/core/Framework.class.php	/^	class Framework $/;"	c
+HELP_PATH	framework/core/Framework.class.php	/^			define('HELP_PATH', FRAMEWORK_PATH."helpers".DS);$/;"	d
+HOME_PATH	framework/core/Framework.class.php	/^			define('HOME_PATH', CONTROLLER_PATH."home".DS);$/;"	d
+IndexController	application/controllers/admin/IndexController.class.php	/^	class IndexController  extends Controller {$/;"	c
+LIBRARIES_PATH	framework/core/Framework.class.php	/^			define('LIBRARIES_PATH', FRAMEWORK_PATH."libraries".DS);$/;"	d
+MODEL_PATH	framework/core/Framework.class.php	/^			define('MODEL_PATH', APP_PATH."models".DS);$/;"	d
+Message.close	application/views/admin/js/common.js	/^}$/;"	f
+Message.controlSound	application/views/admin/js/common.js	/^}$/;"	f
+Message.move.$import	application/views/admin/js/common.js	/^function $import(path,type,title){$/;"	f
+Message.move.rand_str	application/views/admin/js/common.js	/^function rand_str(prefix)$/;"	f
+Message.show	application/views/admin/js/common.js	/^Message.mvTimer = null;$/;"	f
+Model	framework/core/Model.class.php	/^class Model{$/;"	c
+Mysql	framework/database/Mysql.class.php	/^class Mysql{$/;"	c
+NEW_ORDER_INTERVAL	application/views/admin/js/common.js	/^var NEW_ORDER_INTERVAL = 180000;$/;"	v
+Number	application/views/admin/js/transport.js	/^    };$/;"	c
+Number.toJSONString	application/views/admin/js/transport.js	/^    Number.prototype.toJSONString = function () {$/;"	m
+Object	application/views/admin/js/global.js	/^}$/;"	c
+Object	application/views/admin/js/transport.js	/^    };$/;"	c
+Object.extend	application/views/admin/js/global.js	/^Object.prototype.extend = function(object)$/;"	m
+Object.extend	application/views/admin/js/global.js	/^\/* $Id: global.js 15469 2008-12-19 06:34:44Z testyang $ *\/$/;"	f
+Object.function.p	application/views/admin/js/transport.js	/^        function p(s) {$/;"	f
+Object.toJSONString	application/views/admin/js/transport.js	/^    Object.prototype.toJSONString = function () {$/;"	m
+PLATFORM	framework/core/Framework.class.php	/^			define('PLATFORM',isset($_REQUEST['p']) ? $_REQUEST['p'] :"home");$/;"	d
+PUBLIC_PATH	framework/core/Framework.class.php	/^			define('PUBLIC_PATH', ROOT."public".DS);$/;"	d
+ROOT	framework/core/Framework.class.php	/^			define('ROOT', getcwd().DS);$/;"	d
+SelectBox	application/views/admin/js/selectbox.js	/^var SelectBox = Class.create();$/;"	c
+SelectBox	application/views/admin/js/selectbox.js	/^var SelectBox = Class.create();$/;"	v
+SelectBox.addItem	application/views/admin/js/selectbox.js	/^    },$/;"	m
+SelectBox.clone_option	application/views/admin/js/selectbox.js	/^    },$/;"	m
+SelectBox.copy_options	application/views/admin/js/selectbox.js	/^    },$/;"	m
+SelectBox.delItem	application/views/admin/js/selectbox.js	/^    },$/;"	m
+SelectBox.del_options	application/views/admin/js/selectbox.js	/^    },$/;"	m
+SelectBox.delete_array	application/views/admin/js/selectbox.js	/^    },$/;"	m
+SelectBox.fetch_options	application/views/admin/js/selectbox.js	/^    },$/;"	m
+SelectBox.in_array	application/views/admin/js/selectbox.js	/^    },$/;"	m
+SelectBox.initialize	application/views/admin/js/selectbox.js	/^SelectBox.prototype = {$/;"	m
+SelectBox.moveItem	application/views/admin/js/selectbox.js	/^    },$/;"	m
+SelectBox.move_options	application/views/admin/js/selectbox.js	/^    },$/;"	m
+SelectZone	application/views/admin/js/selectzone.js	/^function SelectZone()$/;"	c
+SelectZone.addItem	application/views/admin/js/selectzone.js	/^  this.addItem = function(all, act)$/;"	m
+SelectZone.check	application/views/admin/js/selectzone.js	/^  this.check = function()$/;"	m
+SelectZone.loadOptions	application/views/admin/js/selectzone.js	/^  this.loadOptions = function(act, filters)$/;"	m
+SelectZone.loadOptionsResponse	application/views/admin/js/selectzone.js	/^  this.loadOptionsResponse = function(result, txt)$/;"	m
+Todolist	application/views/admin/js/todolist.js	/^var Todolist = Class.create();$/;"	c
+Todolist	application/views/admin/js/todolist.js	/^var Todolist = Class.create();$/;"	v
+Todolist.initialize	application/views/admin/js/todolist.js	/^Todolist.prototype = {$/;"	m
+Todolist.initialize.minBtn	application/views/admin/js/todolist.js	/^    this.minBtn.onclick  = function()$/;"	m
+Transport.debugging	application/views/admin/js/transport.js	/^  filename : "transport.js",$/;"	p
+Transport.filename	application/views/admin/js/transport.js	/^{$/;"	p
+Utils	application/views/admin/js/utils.js	/^var Utils = new Object();$/;"	c
+VIEW_PATH	framework/core/Framework.class.php	/^			define("VIEW_PATH", APP_PATH."views".DS);$/;"	d
+Validator	application/views/admin/js/validator.js	/^var Validator = function(name)$/;"	c
+Validator.eqaul	application/views/admin/js/validator.js	/^  this.eqaul = function(fstControl, sndControl, msg)$/;"	m
+Validator.gt	application/views/admin/js/validator.js	/^  this.gt = function(fstControl, sndControl, msg)$/;"	m
+Validator.isEmail	application/views/admin/js/validator.js	/^  this.isEmail = function(controlId, msg, required)$/;"	m
+Validator.isInt	application/views/admin/js/validator.js	/^  this.isInt = function(controlId, msg, required)$/;"	m
+Validator.isNullOption	application/views/admin/js/validator.js	/^  this.isNullOption = function(controlId, msg)$/;"	m
+Validator.isNumber	application/views/admin/js/validator.js	/^  this.isNumber = function(controlId, msg, required)$/;"	m
+Validator.isTime	application/views/admin/js/validator.js	/^  this.isTime = function(controlId, msg, required)$/;"	m
+Validator.islt	application/views/admin/js/validator.js	/^  this.islt = function(controlIdStart, controlIdEnd, msg)$/;"	m
+Validator.required	application/views/admin/js/validator.js	/^  this.required = function(controlId, msg)$/;"	m
+Validator.requiredCheckbox	application/views/admin/js/validator.js	/^  this.requiredCheckbox = function(chk, msg)$/;"	m
+Y	application/views/admin/js/todolist.js	/^    var Y  = Event.pointerY(event||window.event);$/;"	v
+\	application/views/admin/js/transport.js	/^            '"' : '\\\\"',$/;"	p
+__construct	framework/core/Model.class.php	/^	public function __construct($table){$/;"	f
+__construct	framework/database/Mysql.class.php	/^	public function __construct($config = array()){$/;"	f
+action_name	framework/core/Framework.class.php	/^			$action_name = ACTION."Action";$/;"	v
+addAction	application/controllers/admin/CategoryController.class.php	/^		public function addAction(){$/;"	f
+addErrorMsg	application/views/admin/js/validator.js	/^  this.addErrorMsg = function(str)$/;"	c
+addItem	application/views/admin/js/validator.js	/^function addItem(src, dst)$/;"	f
+addRemoveItemResponse	application/views/admin/js/selectzone.js	/^  this.addRemoveItemResponse = function(result,txt)$/;"	f
+autoload	framework/core/Framework.class.php	/^		public static function autoload(){$/;"	f
+b	application/views/admin/js/transport.js	/^        var m = {$/;"	p
+b64_hmac_md5	application/views/admin/js/md5.js	/^function b64_hmac_md5(key, data) { return binl2b64(core_hmac_md5(key, data)); }$/;"	f
+b64_md5	application/views/admin/js/md5.js	/^function b64_md5(s){ return binl2b64(core_md5(str2binl(s), s.length * chrsz));}$/;"	f
+b64pad	application/views/admin/js/md5.js	/^var b64pad  = ""; \/* base-64 pad character. "=" for strict RFC compliance   *\/$/;"	v
+binl2b64	application/views/admin/js/md5.js	/^function binl2b64(binarray)$/;"	f
+binl2hex	application/views/admin/js/md5.js	/^function binl2hex(binarray)$/;"	f
+binl2str	application/views/admin/js/md5.js	/^function binl2str(bin)$/;"	f
+bit_rol	application/views/admin/js/md5.js	/^function bit_rol(num, cnt)$/;"	f
+cateModel	application/controllers/admin/CategoryController.class.php	/^			$cateModel = new CategoryModel("category");$/;"	v
+charset	framework/database/Mysql.class.php	/^		$charset = isset($config['charset'])? $config['charset'] : '3306';$/;"	v
+checkOrder	application/views/admin/js/common.js	/^function checkOrder()$/;"	f
+checkOrderResponse	application/views/admin/js/common.js	/^function checkOrderResponse(result)$/;"	f
+chrsz	application/views/admin/js/md5.js	/^var chrsz   = 8;  \/* bits per input character. 8 - ASCII; 16 - Unicode      *\/$/;"	v
+closebar	application/views/admin/js/topbar.js	/^function closebar()$/;"	f
+confirm_redirect	application/views/admin/js/common.js	/^function confirm_redirect(msg, url)$/;"	f
+conn	framework/database/Mysql.class.php	/^		$this->conn = mysql_connect("$host:$port",$user,$password) or die('数据库连接错误');$/;"	v
+conn	framework/database/Mysql.class.php	/^	protected $conn = false;  \/\/数据库连接资源$/;"	v
+content	application/views/admin/js/todolist.js	/^    var content            = encodeURIComponent(this.textBox.value);$/;"	v
+controller	framework/core/Framework.class.php	/^			$controller = new $controller_name;$/;"	v
+controller_name	framework/core/Framework.class.php	/^			$controller_name = CONTROLLER."Controller";$/;"	v
+core_hmac_md5	application/views/admin/js/md5.js	/^function core_hmac_md5(key, data)$/;"	f
+core_md5	application/views/admin/js/md5.js	/^function core_md5(x, len)$/;"	f
+createDocument	application/views/admin/menu.html	/^function createDocument()$/;"	f
+createOptions	application/views/admin/js/selectzone.js	/^  this.createOptions = function(obj, arr)$/;"	f
+db	framework/core/Model.class.php	/^		$this->db = new Mysql($dbconfig);$/;"	v
+db	framework/core/Model.class.php	/^	protected $db; \/\/数据库连接对象$/;"	v
+dbname	framework/database/Mysql.class.php	/^		$dbname = isset($config['dbname'])? $config['dbname'] : '';$/;"	v
+debugging.debuggingMode	application/views/admin/js/transport.js	/^      "isDebugging" : isDebugging,$/;"	p
+debugging.isDebugging	application/views/admin/js/transport.js	/^    {$/;"	p
+debugging.linefeed	application/views/admin/js/transport.js	/^      "debuggingMode" : debuggingMode,$/;"	p
+delItem	application/views/admin/js/validator.js	/^function delItem(ItemList)$/;"	f
+delete	framework/core/Model.class.php	/^	public function delete($pk){$/;"	f
+document.document.window	application/views/admin/js/todolist.js	/^    Event.observe(this.autoSaveCheckbox, "click", this.autoSave.bind(this));$/;"	m
+document.getElementById	application/views/admin/js/tab.js	/^\/**$/;"	f
+document.onmousedown	application/views/admin/js/colorselector.js	/^  ColorSelecter.box.style.left = pos.left + "px";$/;"	f
+document.onmousedown	application/views/admin/js/colorselector_topic.js	/^  ColorSelecter.box.style.left = pos.left + "px";$/;"	f
+dragAction	application/controllers/admin/IndexController.class.php	/^		public function dragAction(){$/;"	f
+dropItem	application/views/admin/js/selectzone.js	/^  this.dropItem = function(all, act)$/;"	f
+el.sP	application/views/admin/js/topbar.js	/^    }$/;"	c
+element	application/views/admin/js/todolist.js	/^    var element   = Event.element(event||window.event);$/;"	v
+errno	framework/database/Mysql.class.php	/^	public function errno(){$/;"	f
+error	framework/database/Mysql.class.php	/^	public function error(){$/;"	f
+f	application/views/admin/js/transport.js	/^            '\\n': '\\\\n',$/;"	p
+field_list	framework/core/Model.class.php	/^		$field_list = '';  \/\/字段列表字符串$/;"	v
+field_list	framework/core/Model.class.php	/^		$field_list = rtrim($field_list,',');$/;"	v
+fields	framework/core/Model.class.php	/^	protected $fields = array();  \/\/字段列表$/;"	v
+getAll	framework/database/Mysql.class.php	/^	public function getAll($sql){$/;"	f
+getCats	application/models/CategoryModel.class.php	/^	public function getCats(){$/;"	f
+getCol	framework/database/Mysql.class.php	/^	public function getCol($sql){$/;"	f
+getFields	framework/core/Model.class.php	/^	private function getFields(){$/;"	f
+getInsertId	framework/database/Mysql.class.php	/^	public function getInsertId(){$/;"	f
+getOne	framework/database/Mysql.class.php	/^	public function getOne($sql){$/;"	f
+getRow	framework/database/Mysql.class.php	/^	public function getRow($sql){$/;"	f
+get_cookie	application/views/admin/js/topbar.js	/^function get_cookie(Name)$/;"	f
+height	application/views/admin/js/todolist.js	/^    var height = tY - (parseInt(pos.top) - this.box.offsetHeight) - parseInt(this.box.offsetHeight);$/;"	v
+hex_hmac_md5	application/views/admin/js/md5.js	/^function hex_hmac_md5(key, data) { return binl2hex(core_hmac_md5(key, data)); }$/;"	f
+hex_md5	application/views/admin/js/md5.js	/^function hex_md5(s){ return binl2hex(core_md5(str2binl(s), s.length * chrsz));}$/;"	f
+hexcase	application/views/admin/js/md5.js	/^var hexcase = 0;  \/* hex output format. 0 - lowercase; 1 - uppercase        *\/$/;"	v
+host	framework/database/Mysql.class.php	/^		$host = isset($config['host'])? $config['host'] : 'localhost';$/;"	v
+indexAction	application/controllers/admin/CategoryController.class.php	/^		public function indexAction(){$/;"	f
+indexAction	application/controllers/admin/IndexController.class.php	/^		public function indexAction(){$/;"	f
+init	framework/core/Framework.class.php	/^		public static function init(){$/;"	f
+insert	framework/core/Model.class.php	/^	public function insert($list){$/;"	f
+insertAction	application/controllers/admin/CategoryController.class.php	/^		public function insertAction(){$/;"	f
+items	application/views/admin/js/listtable.js	/^      items[celName].style.width = "50px";$/;"	f
+joinItem	application/views/admin/js/validator.js	/^function joinItem(ItemList)$/;"	f
+jump	framework/core/Controller.class.php	/^		public function jump($url,$message,$wait=3){$/;"	f
+k	framework/core/Model.class.php	/^		foreach ($list as $k => $v) {$/;"	v
+list	framework/database/Mysql.class.php	/^		$list = array();$/;"	v
+listTable	application/views/admin/js/listtable.js	/^var listTable = new Object;$/;"	c
+listTable.addRow	application/views/admin/js/listtable.js	/^}$/;"	f
+listTable.changePageSize	application/views/admin/js/listtable.js	/^}$/;"	f
+listTable.compileFilter	application/views/admin/js/listtable.js	/^}$/;"	f
+listTable.edit	application/views/admin/js/listtable.js	/^listTable.url += "?is_ajax=1";$/;"	f
+listTable.filter	application/views/admin/js/listtable.js	/^listTable.query = "query";$/;"	c
+listTable.getPageSize	application/views/admin/js/listtable.js	/^}$/;"	f
+listTable.gotoPage	application/views/admin/js/listtable.js	/^}$/;"	c
+listTable.gotoPageFirst	application/views/admin/js/listtable.js	/^}$/;"	f
+listTable.gotoPageLast	application/views/admin/js/listtable.js	/^}$/;"	f
+listTable.gotoPageNext	application/views/admin/js/listtable.js	/^}$/;"	f
+listTable.gotoPagePrev	application/views/admin/js/listtable.js	/^}$/;"	f
+listTable.listCallback	application/views/admin/js/listtable.js	/^}$/;"	f
+listTable.loadList	application/views/admin/js/listtable.js	/^}$/;"	f
+listTable.remove	application/views/admin/js/listtable.js	/^}$/;"	f
+listTable.selectAll	application/views/admin/js/listtable.js	/^}$/;"	f
+listTable.sort	application/views/admin/js/listtable.js	/^}$/;"	c
+listTable.toggle	application/views/admin/js/listtable.js	/^}$/;"	f
+listZone.hideLoader	application/views/admin/js/common.js	/^}$/;"	f
+listZone.showLoader	application/views/admin/js/common.js	/^var listZone = new Object();$/;"	f
+listZone.toggleLoader	application/views/admin/js/common.js	/^}$/;"	f
+load	framework/core/Framework.class.php	/^		public static function load($classname){$/;"	f
+mainAction	application/controllers/admin/IndexController.class.php	/^		public function mainAction(){$/;"	f
+md5_cmn	application/views/admin/js/md5.js	/^function md5_cmn(q, a, b, x, s, t)$/;"	f
+md5_ff	application/views/admin/js/md5.js	/^function md5_ff(a, b, c, d, x, s, t)$/;"	f
+md5_gg	application/views/admin/js/md5.js	/^function md5_gg(a, b, c, d, x, s, t)$/;"	f
+md5_hh	application/views/admin/js/md5.js	/^function md5_hh(a, b, c, d, x, s, t)$/;"	f
+md5_ii	application/views/admin/js/md5.js	/^function md5_ii(a, b, c, d, x, s, t)$/;"	f
+md5_vm_test	application/views/admin/js/md5.js	/^function md5_vm_test()$/;"	f
+menuAction	application/controllers/admin/IndexController.class.php	/^		public function menuAction(){$/;"	f
+myTable.rows	application/views/admin/js/colorselector.js	/^        myTable.rows[i].cells[j].style.border = "#BDBBBC 1px solid";$/;"	c
+myTable.rows	application/views/admin/js/colorselector.js	/^        }$/;"	f
+myTable.rows	application/views/admin/js/colorselector_topic.js	/^        myTable.rows[i].cells[j].style.border = "#BDBBBC 1px solid";$/;"	c
+myTable.rows	application/views/admin/js/colorselector_topic.js	/^        }$/;"	f
+n	application/views/admin/js/transport.js	/^            '\\t': '\\\\t',$/;"	p
+pageRows	framework/core/Model.class.php	/^	public function pageRows($offset, $limit,$where = ''){$/;"	f
+passed	application/views/admin/js/validator.js	/^  this.passed = function()$/;"	f
+password	framework/database/Mysql.class.php	/^		$password = isset($config['password'])? $config['password'] : '';$/;"	v
+pk	framework/core/Model.class.php	/^				$pk = $v['Field'];$/;"	v
+port	framework/database/Mysql.class.php	/^		$port = isset($config['port'])? $config['port'] : '3306';$/;"	v
+posObj	application/views/admin/js/todolist.js	/^    var posObj = document.getCookie("todolist_position_" + this.adminid);$/;"	v
+query	framework/database/Mysql.class.php	/^	public function query($sql){		$/;"	f
+r	application/views/admin/js/transport.js	/^            '\\f': '\\\\f',$/;"	p
+result	application/models/CategoryModel.class.php	/^		$result=$this->db->getAll();$/;"	v
+result	framework/core/Model.class.php	/^		$result = $this->db->getAll($sql);$/;"	v
+result	framework/database/Mysql.class.php	/^		$result = $this->query($sql);$/;"	v
+result	framework/database/Mysql.class.php	/^		$result = mysql_query($this->sql,$this->conn);$/;"	v
+route	framework/core/Framework.class.php	/^		public static function route(){$/;"	f
+row	framework/database/Mysql.class.php	/^			$row = mysql_fetch_assoc($result);$/;"	v
+row	framework/database/Mysql.class.php	/^		$row = mysql_fetch_row($result);$/;"	v
+run	framework/core/Framework.class.php	/^		public static function run(){$/;"	f
+safe_add	application/views/admin/js/md5.js	/^function safe_add(x, y)$/;"	f
+selectByPk	framework/core/Model.class.php	/^	public function selectByPk($pk){$/;"	f
+setChar	framework/database/Mysql.class.php	/^	private function setChar($charest){$/;"	f
+set_size	application/views/admin/js/common.js	/^function set_size(w)$/;"	f
+showImg	application/views/admin/js/common.js	/^function showImg(id, act)$/;"	f
+showNotice	application/views/admin/js/validator.js	/^function showNotice(objId)$/;"	f
+sql	application/models/CategoryModel.class.php	/^		$sql="Select * from {$this->table}";$/;"	v
+sql	framework/core/Model.class.php	/^			$sql = "select * from {$this->table}  where $where limit $offset, $limit";$/;"	v
+sql	framework/core/Model.class.php	/^			$sql = "select * from {$this->table} limit $offset, $limit";$/;"	v
+sql	framework/core/Model.class.php	/^			$sql = "select count(*) from {$this->table} where $where";$/;"	v
+sql	framework/core/Model.class.php	/^			$sql = "select count(*) from {$this->table}";$/;"	v
+sql	framework/core/Model.class.php	/^		$sql = "DELETE FROM `{$this->table}` WHERE $where";$/;"	v
+sql	framework/core/Model.class.php	/^		$sql = "DESC ". $this->table;$/;"	v
+sql	framework/core/Model.class.php	/^		$sql = "INSERT INTO `{$this->table}` ({$field_list}) VALUES ($value_list)";$/;"	v
+sql	framework/core/Model.class.php	/^		$sql = "UPDATE `{$this->table}` SET {$uplist} WHERE {$where}";$/;"	v
+sql	framework/core/Model.class.php	/^		$sql = "select * from `{$this->table}` where `{$this->fields['pk']}`=$pk";$/;"	v
+sql	framework/database/Mysql.class.php	/^		$sql = 'set names '.$charest;$/;"	v
+sql	framework/database/Mysql.class.php	/^		$this->sql = $sql;$/;"	v
+sql	framework/database/Mysql.class.php	/^	protected $sql;           \/\/sql语句$/;"	v
+startCheckOrder	application/views/admin/js/common.js	/^function startCheckOrder()$/;"	f
+start_menu_api	application/views/admin/menu.html	/^function start_menu_api(result)$/;"	f
+staticbar	application/views/admin/js/topbar.js	/^function staticbar()$/;"	f
+staticbar.ml	application/views/admin/js/topbar.js	/^  function ml(id)$/;"	f
+str2binl	application/views/admin/js/md5.js	/^function str2binl(str)$/;"	f
+str_hmac_md5	application/views/admin/js/md5.js	/^function str_hmac_md5(key, data) { return binl2str(core_hmac_md5(key, data)); }$/;"	f
+str_md5	application/views/admin/js/md5.js	/^function str_md5(s){ return binl2str(core_md5(str2binl(s), s.length * chrsz));}$/;"	f
+t	application/views/admin/js/transport.js	/^            '\\b': '\\\\b',$/;"	p
+tX	application/views/admin/js/todolist.js	/^    var tX     = Event.pointerX(event||window.event);$/;"	v
+tX	application/views/admin/js/todolist.js	/^    var tX = parseInt(this.LastLeft) + X - this.LastX;$/;"	v
+tY	application/views/admin/js/todolist.js	/^    var tY     = Event.pointerY(event||window.event);$/;"	v
+tY	application/views/admin/js/todolist.js	/^    var tY = parseInt(this.LastTop) + Y - this.LastY;$/;"	v
+table	framework/core/Model.class.php	/^		$this->table = $GLOBALS['config']['prefix'] . $table;$/;"	v
+table	framework/core/Model.class.php	/^	protected $table; \/\/表名$/;"	v
+this.saveFunc	application/views/admin/js/listtable.js	/^      this.saveFunc = function()$/;"	m
+toggleCollapse	application/views/admin/menu.html	/^function toggleCollapse()$/;"	f
+toggleCollapseExpand	application/views/admin/menu.html	/^function toggleCollapseExpand(obj, status)$/;"	f
+toggleMenu	application/views/admin/drag.html	/^function toggleMenu()$/;"	f
+topAction	application/controllers/admin/IndexController.class.php	/^		public function topAction()$/;"	f
+total	framework/core/Model.class.php	/^	public function total($where){$/;"	f
+tree	application/models/CategoryModel.class.php	/^		static $tree = array();$/;"	v
+tree	application/models/CategoryModel.class.php	/^	public function tree($arr,$parent_id=0){$/;"	f
+txt.onblur	application/views/admin/js/listtable.js	/^  }$/;"	f
+txt.onkeypress	application/views/admin/js/listtable.js	/^  txt.focus();$/;"	f
+update	framework/core/Model.class.php	/^	public function update($list){$/;"	f
+uplist	framework/core/Model.class.php	/^		$uplist = ''; \/\/更新列表字符串$/;"	v
+uplist	framework/core/Model.class.php	/^		$uplist = rtrim($uplist,',');$/;"	v
+user	framework/database/Mysql.class.php	/^		$user = isset($config['user'])? $config['user'] : 'root';$/;"	v
+value_list	framework/core/Model.class.php	/^		$value_list = '';  \/\/值列表字符串$/;"	v
+value_list	framework/core/Model.class.php	/^		$value_list = rtrim($value_list,',');$/;"	v
+verticalpos	application/views/admin/js/topbar.js	/^var verticalpos = "fromtop";$/;"	v
+where	framework/core/Model.class.php	/^					$where = "`$k`=$v";$/;"	v
+where	framework/core/Model.class.php	/^			$where = "`{$this->fields['pk']}` in (".implode(',', $pk).")";$/;"	v
+where	framework/core/Model.class.php	/^			$where = "`{$this->fields['pk']}`=$pk";$/;"	v
+where	framework/core/Model.class.php	/^		$where = 0;   \/\/更新条件,默认为0$/;"	v
+where	framework/core/Model.class.php	/^		$where = 0; \/\/条件字符串$/;"	v
+width	application/views/admin/js/todolist.js	/^    var width  = tX - (parseInt(pos.left) - this.box.offsetWidth) - parseInt(this.box.offsetWidth);$/;"	v
+window.stayTopLeft	application/views/admin/js/topbar.js	/^  }$/;"	f
+xhr.onreadystatechange	application/views/admin/js/transport.js	/^      {$/;"	f

@@ -1,5 +1,6 @@
 <?php
-	class IndexController{
+
+	class IndexController  extends Controller {
 		public function indexAction(){
 			include CUR_VIEW_PATH."index.html";
 		}	
