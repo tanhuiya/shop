@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>Shop 管理中心-添加类型</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1404.34">
+  <link rel="stylesheet" type="text/css" href="application/views/admin/styles/main.css">
+  <link rel="stylesheet" type="text/css" href="application/views/admin/styles/general.css">
+  <style type="text/css">
+  </style>
+</head>
+<body>
+<h1>
+	<span class="action-span"><a href="index.php?p=admin&c=type&a=index">商品类型列表</a></span>
+	<span class="action-span1"><a href="index.php?p=admin&c=index&a=index">Shop 管理中心</a></span><span class="action-span1">-新建商品类型</span>
+	<div style="clear:both"></div>
+</h1>
+<div class="main-div">
+	<form action="index.php?p=admin&c=type&a=insert" method="post" name="theform" enctype="multipart/form-data">
+	<table width="100%" id="general-table">
+		<tbody>
+			<tr>
+				<td class="label">商品类型名称</td>
+				<td><input type="text" name="type_name" maxlength="20" size="40">
+					<span class="requir-failed">*</span>
+				</td>
+			</tr>
+			<tr >
+				<td class="label">状态</td>
+				<td>
+					<input type="radio" name="enabled" value="0">&nbsp;禁用&nbsp;
+					<input type="radio" name="enabled" value="0" checked="checked">&nbsp;启用&nbsp;
+				</td>
+			</tr>
+			<tr >
+				<td class="label">属性分组:</td>
+				<td>
+					<textarea name="attr_group" rows="5" cols="40"></textarea>
+					<span class="notice-span" style="display:block">每行一个商品属性组。排序也将按照自然顺序排序。</span>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="label">是否显示</td>
+				<td><input type="radio" name="ishow"></td>
+			</tr>
+			<tr>
+	        <td class="label">分类描述:</td>
+	        <td>
+	          <textarea name="cat_desc" rows="6" cols="48"></textarea>
+	        </td>
+	      </tr>
+	        <tr align="center" >
+	        	<td colspan="2">
+	        		<div class="button-div">
+					<input type="submit" value="确定">
+					<input type="reset" value="重置">
+				</div>
+	        	</td>
+				
+			</tr>
+		</tbody>
+	</table>
+	
+		<input type="hidden" name="act" value="insert">
+	    <input type="hidden" name="old_cat_name" value="">
+	</form>
+</div>
+
+</body>
+</html>

@@ -57,7 +57,7 @@
 		}
 		public static function load($classname){
 			if(substr($classname, -10)=="Controller"){
-				include CUR_CONTROLLER_PATH."{$classname}.class.php";
+				require CUR_CONTROLLER_PATH."{$classname}.class.php";
 			}else if (substr($classname, -5)=="Model") {
 				require MODEL_PATH."{$classname}.class.php";
 			}

@@ -1,7 +1,7 @@
 <?php
 	class CategoryController extends Controller{
 		public function indexAction(){
-
+			require CUR_VIEW_PATH."cat_list.html";
 		}
 		public function addAction(){
 			include CUR_VIEW_PATH."add_cat.html";
