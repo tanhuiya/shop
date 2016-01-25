@@ -1,7 +1,7 @@
 <?php
 	class TypeController extends Controller{
 		public function indexAction(){
-
+			
 			require CUR_VIEW_PATH.'good_type_list.html';
 		}
 		public function addAction(){
